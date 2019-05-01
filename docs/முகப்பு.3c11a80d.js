@@ -11,4 +11,4 @@ module.exports=function(t){return fetch(t).then(function(t){return t.text()})};
 },{}],0:[function(require,module,exports) {
 var b=require("oBPc");b.register("html",require("phy6"));
 },{}]},{},[0,"C4a9"], null)
-//# sourceMappingURL=/முகப்பு.3c11a80d.js.map
+//# sourceMappingURL=முகப்பு.3c11a80d.js.map
