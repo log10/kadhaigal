@@ -1,0 +1,19 @@
+{
+  "name": "kadhaigal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "முகப்பு.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/முகப்பு.html",
+    "build": "parcel build src/முகப்பு.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.3"
+  }
+}
