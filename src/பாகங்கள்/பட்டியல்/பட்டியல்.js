@@ -1,5 +1,3 @@
-import "./பட்டியல்.css";
-
 const அச்சுக்கட்டங்கள் = "<div class='கட்டங்கள்'> %s </div>"
 const அச்சுக்கட்டம் = "<div class='கட்டம் %s'><span> %s </span></div>"
 

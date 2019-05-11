@@ -6,7 +6,18 @@
 </head>
 <body>
     <script type="text/javascript">
-        window.location = "http://www.loguvinkadhaigal.org/முகப்பு.html"
+        function isMobileScreen() {
+             if(/iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone|iPad Pro/i.test(navigator.userAgent)) {
+                return true;
+             } else {
+                return false;
+             }
+        }
+        if(isMobileScreen()) {
+            window.location = "http://www.loguvinkadhaigal.org/சிட்டு/முகப்பு.html"
+        } else {
+            window.location = "http://www.loguvinkadhaigal.org/முகப்பு.html"
+        }
     </script>
 </body>
 </html>
