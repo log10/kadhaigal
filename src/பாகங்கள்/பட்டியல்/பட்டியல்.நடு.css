@@ -1,0 +1,25 @@
+.கட்டங்கள் {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    grid-gap: 2.5%;
+    padding: 25px 30px 40px 30px;
+    justify-items: center;
+}
+
+.கட்டம் {
+    background-color: #ffffff;
+    height: 35vh;
+    display: table;
+    width: 100%;
+}
+
+.கட்டம் span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 4em;
+    color: #5f5b5b;
+    box-shadow: #524949 0px 5px 15px -5px;
+    word-break: break-all;
+}
+

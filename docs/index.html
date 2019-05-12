@@ -2,19 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>kadhaigal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>கதைகள்</title>
 </head>
 <body>
     <script type="text/javascript">
-        function isMobileScreen() {
-             if(/iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone|iPad Pro/i.test(navigator.userAgent)) {
-                return true;
-             } else {
-                return false;
-             }
-        }
-        if(isMobileScreen()) {
-            window.location = "http://www.loguvinkadhaigal.org/சிட்டு/முகப்பு.html"
+        if(/iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone|iPad Pro/i.test(navigator.userAgent)) {
+            if(window.innerWidth < window.innerHeight && window.innerHeight/window.innerWidth < 1.5) {
+                window.location = "http://www.loguvinkadhaigal.org/நடு/முகப்பு.html"
+            } else {
+                window.location = "http://www.loguvinkadhaigal.org/சிட்டு/முகப்பு.html"
+            }
         } else {
             window.location = "http://www.loguvinkadhaigal.org/முகப்பு.html"
         }

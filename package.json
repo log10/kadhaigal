@@ -10,8 +10,10 @@
     "clean": "rm dist/bundle.js",
     "start": "parcel src/முகப்பு.html",
     "mobile": "parcel src/சிட்டு/முகப்பு.html",
+    "tab": "parcel src/நடு/முகப்பு.html",
     "build": "parcel build src/முகப்பு.html --out-dir docs --public-url ./",
-    "mobile-build": "parcel build src/சிட்டு/முகப்பு.html --out-dir docs/சிட்டு --public-url ./"
+    "mobile-build": "parcel build src/சிட்டு/முகப்பு.html --out-dir docs/சிட்டு --public-url ./",
+    "tab-build": "parcel build src/நடு/முகப்பு.html --out-dir docs/நடு --public-url ./"
   },
   "dependencies": {},
   "devDependencies": {
