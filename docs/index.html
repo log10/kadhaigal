@@ -7,8 +7,10 @@
 </head>
 <body>
     <script type="text/javascript">
-        if(/iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone|iPad Pro/i.test(navigator.userAgent)) {
-            if(window.innerWidth < window.innerHeight && window.innerHeight/window.innerWidth < 1.5) {
+        if(/iPad|iPad Pro/i.test(navigator.userAgent)) {
+            window.location = "http://www.loguvinkadhaigal.org/நடு/முகப்பு.html"
+        } else if(/iPhone|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent)) {
+            if(window.innerWidth < window.innerHeight && window.innerHeight/window.innerWidth < 1.4) {
                 window.location = "http://www.loguvinkadhaigal.org/நடு/முகப்பு.html"
             } else {
                 window.location = "http://www.loguvinkadhaigal.org/சிட்டு/முகப்பு.html"

@@ -6,7 +6,6 @@ body {
                 Bamini , Roboto,                  /* For Android 4+ */
                 Noto, "Noto Sans Tamil",          /* For Ubuntu */
                 sans-serif;                       /* For Everything else */
-
 }
 
 .நடுநிலை {
@@ -16,11 +15,7 @@ body {
 .தலையங்கம் {
     background: #3c89ffcc;
     color: white;
-    font-family:"Tamil Sangam MN", "InaiMathi",   /* For iOS 3+ and Mac */
-                Latha, "Nirmala UI",              /* For Windows */
-                Roboto, Bamini,                  /* For Android 4+ */
-                "Noto Sans Tamil", Noto,          /* For Ubuntu */
-                sans-serif;
+    font-family: 'Arima Madurai', cursive;
     width: 90vw;
     height: 10vh;
     padding-top: 2vh;

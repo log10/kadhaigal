@@ -16,11 +16,7 @@ body {
 .தலையங்கம் {
     background: #3c89ffcc;
     color: white;
-    font-family:"Tamil Sangam MN", "InaiMathi",   /* For iOS 3+ and Mac */
-                Latha, "Nirmala UI",              /* For Windows */
-                Roboto, Bamini,                  /* For Android 4+ */
-                "Noto Sans Tamil", Noto,          /* For Ubuntu */
-                sans-serif;
+    font-family: 'Arima Madurai', cursive;
     width: 90vw;
     height: 5vh;
     padding-top: 1vh;
@@ -34,7 +30,7 @@ body {
 
 .பட்டியல் {
     font-size: 1.5em;
-    top: -3.7vh;
+    top: -3.3vh;
     position: relative;
     text-align: right;
     font-weight: bold;
