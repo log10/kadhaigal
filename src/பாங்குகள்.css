@@ -6,6 +6,7 @@ body {
                 Bamini , Roboto,                  /* For Android 4+ */
                 Noto, "Noto Sans Tamil",          /* For Ubuntu */
                 sans-serif;                       /* For Everything else */
+    overflow-x: hidden;
 }
 
 .நடுநிலை {
@@ -13,7 +14,7 @@ body {
 }
 
 .தலையங்கம் {
-    background: #3c89ffcc;
+    background: #5d9cfd;
     color: white;
     font-family: 'Arima Madurai', cursive;
     width: 90vw;
@@ -21,6 +22,8 @@ body {
     padding-top: 2vh;
     padding-left: 5vw;
     padding-right: 5vw;
+    position: fixed;
+    z-index: 10;
 }
 
 .தலைப்பு {
@@ -44,3 +47,7 @@ body {
     transition: 0.25s ease-in-out
 }
 
+.தளம் {
+    position: relative;
+    top: 12vh;
+}
