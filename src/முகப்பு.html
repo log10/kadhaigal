@@ -4,7 +4,10 @@
         <title>கதைகள்</title>
         <meta charset="utf-8">
         <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons", rel="stylesheet" />-->
-        <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Pavanam|Kavivanar&display=swap" rel="stylesheet">
+        <link rel="preload"
+              as="style"
+              onload="this.rel = 'stylesheet'"
+              href="https://fonts.googleapis.com/css?family=Arima+Madurai|Pavanam|Kavivanar&display=swap">
     </head>
     <body>
         <div class="தலையங்கம்" >
@@ -18,6 +21,6 @@
         </div>
 
         <div class="தளம்"></div>
-        <script src="முகப்பு.js"></script>
+        <script rel="prefetch" as="script" src="முகப்பு.js"></script>
     </body>
 </html>
