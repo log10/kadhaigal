@@ -1,0 +1,27 @@
+.பக்கக்குறிப்பு {
+    position: fixed;
+    top: 93vh;
+    right: 1vw;
+    color: #d2d2d2a6;
+}
+
+.பக்கக்குறிப்பு i {
+    font-size: 5.5em;
+}
+
+.பக்கக்குறிப்பு span {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    color: #ffffff;
+    font-size: 2.2em;
+    text-shadow: 0px 0px 1px white;
+}
+
+.பக்கக்குறிப்பு:hover {
+    color: #E18A07;
+}
+
+.பக்கக்குறிப்பு.தொடு {
+    color: #E18A07;
+}

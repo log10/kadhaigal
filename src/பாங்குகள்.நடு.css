@@ -1,11 +1,7 @@
-body {
+.உடல் {
     margin: 0px;
     background: #d8d8d8a6;
-    font-family:"InaiMathi", "Tamil Sangam MN",   /* For iOS 3+ and Mac */
-                "Nirmala UI", Latha,              /* For Windows */
-                Bamini , Roboto,                  /* For Android 4+ */
-                Noto, "Noto Sans Tamil",          /* For Ubuntu */
-                sans-serif;                       /* For Everything else */
+    font-family: sans-serif;
     overflow-x: hidden;
 }
 
@@ -43,6 +39,5 @@ body {
 }
 
 .தளம் {
-    position: relative;
-    top: 5.93vh;
+    padding-top: 5.93vh;
 }
