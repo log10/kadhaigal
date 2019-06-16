@@ -1,25 +1,21 @@
 .பக்கக்குறிப்பு {
     position: fixed;
-    top: 94vh;
-    right: 4vw;
+    top: 93%;
+    right: 2vw;
     color: #d2d2d2a6;
 }
 
 .பக்கக்குறிப்பு i {
-    font-size: 5.5em;
+    font-size: 6em;
 }
 
 .பக்கக்குறிப்பு span {
     position: absolute;
-    top: 18px;
-    left: 21px;
+    top: 22px;
+    left: 26.5px;
     color: #ffffff;
-    font-size: 2.7em;
+    font-size: 2.4em;
     text-shadow: 0px 0px 1px white;
-}
-
-.பக்கக்குறிப்பு:hover {
-    color: #E18A07;
 }
 
 .பக்கக்குறிப்பு.தொடு {
