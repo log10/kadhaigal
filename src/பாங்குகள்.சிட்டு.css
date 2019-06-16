@@ -36,6 +36,7 @@
 
 .பட்டியல் > span {
     margin-right: 0.5em;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .தளம் {

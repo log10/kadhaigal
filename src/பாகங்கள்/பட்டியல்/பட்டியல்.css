@@ -21,6 +21,7 @@
     color: #5f5b5b;
     word-break: break-all;
     font-family: 'Arima Madurai', cursive;
+    cursor: pointer;
 }
 
 .கட்டம் span:hover {
