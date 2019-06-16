@@ -14,8 +14,8 @@
     color: white;
     font-family: 'Arima Madurai', cursive;
     width: 90vw;
-    height: 5vh;
-    padding-top: 1vh;
+    height: 6vh;
+    padding-top: 0.5vh;
     padding-left: 5vw;
     padding-right: 5vw;
     position: fixed;
@@ -28,7 +28,7 @@
 
 .பட்டியல் {
     font-size: 1.7em;
-    top: -4.3vh;
+    top: -5.8vh;
     position: relative;
     text-align: right;
     font-weight: bold;
@@ -39,5 +39,5 @@
 }
 
 .தளம் {
-    padding-top: 5.93vh;
+    padding-top: 6.49vh;
 }
