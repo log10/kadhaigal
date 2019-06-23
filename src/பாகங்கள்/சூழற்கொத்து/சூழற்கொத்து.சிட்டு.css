@@ -1,0 +1,29 @@
+div.சூழற்கொத்து {
+    position: fixed;
+    top: 2%;
+    right: 1.5%;
+    z-index: 20;
+    width: 50vw;
+    background: white;
+    color: #5f5b5b;
+    box-shadow: #524949 -2px 2px 15px -5px;
+}
+
+.திரை {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 19;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.சூழற்கொத்து > div {
+    font-size: 2.2em;
+    font-family: 'Arima Madurai', sans-serif;
+    padding: 0.25vh 2vw 0.25vh 2.5vw;
+}
+
+div.சூழற்கொத்து > div:active {
+    color: black;
+}

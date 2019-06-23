@@ -1,5 +1,5 @@
 const அச்சுக்கட்டங்கள் = "<div class='கட்டங்கள்'> %s </div>"
-const அச்சுக்கட்டம் = "<div class='கட்டம் %s'><span> %s </span></div>"
+const அச்சுக்கட்டம் = "<div class='கட்டம் %s_கட்டம்'><span> %s </span></div>"
 
 export const பட்டியலி = {
     செதுக்கு: (நிறுவு, பட்டியல்) => {
@@ -9,7 +9,7 @@ export const பட்டியலி = {
         });
         நிறுவு(அச்சுக்கட்டங்கள்.replace('%s', கட்டங்கள்), () => {
             பட்டியல்.forEach(உறுப்பு => {
-                document.querySelector("."+உறுப்பு['பெயர்']).addEventListener('click',உறுப்பு['தீண்டுவினை']);
+                document.querySelector("."+உறுப்பு['பெயர்']+"_கட்டம்").addEventListener('click',உறுப்பு['தீண்டுவினை']);
             });
         });
     }
