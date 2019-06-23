@@ -7,7 +7,9 @@ const பக்கமெண்ணு = () => {
     let பக்கக்குறிப்பு = document.querySelector(".பக்கக்குறிப்பு span");
     window.onscroll().கோர்(() => {
         let பக்கக்குறிப்பு_எண் = Math.ceil(document.scrollingElement.scrollTop*100/document.scrollingElement.scrollHeight);
-        பக்கக்குறிப்பு.innerHTML = ((பக்கக்குறிப்பு_எண் < 10) ? "0" : "") + பக்கக்குறிப்பு_எண்;
+        if(பக்கக்குறிப்பு_எண் >= 0) {
+            பக்கக்குறிப்பு.innerHTML = ((பக்கக்குறிப்பு_எண் < 10) ? "0" : "") + பக்கக்குறிப்பு_எண்;
+        }
         பக்கக்குறிப்பு.parentNode.classList.remove(பாங்கு);
     });
 };

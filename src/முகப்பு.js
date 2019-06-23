@@ -21,4 +21,8 @@ window.addEventListener('load', வினை => {
             window.location += முகவரி;
         }
     });
+
+    document.querySelector(".தொடர்பின்கொக்கி").addEventListener('click',வினை => {
+        window.location = "https://docs.google.com/forms/d/e/1FAIpQLSf4riS491tEFuv9YiCtZ2g8PL7Jj3XL6redsUr1NYJndRkCyA/viewform?usp=sf_link";
+    });
 });
