@@ -16,13 +16,13 @@
 }
 
 .தலைப்பு {
-    font-size: 3em;
+    font-size: 2.8em;
     -webkit-tap-highlight-color: transparent;
 }
 
 .பட்டியல் {
-    font-size: 1.9em;
-    top: -5.8vh;
+    font-size: 1.6em;
+    top: -5.2vh;
     position: relative;
     text-align: right;
     font-weight: bold;
