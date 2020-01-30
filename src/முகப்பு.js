@@ -6,6 +6,14 @@ import "./பாகங்கள்/பக்கக்குறிப்பு/�
 
 import "./சுவடிகள்/திசைவி/திசைவி.js";
 
+const கொக்கித்தீண்டல் = முகவரி => {
+    if(window.location.href.includes('#')) {
+       window.location.href = window.location.href.split('#')[0] + முகவரி;
+    } else {
+       window.location += முகவரி;
+    }
+}
+
 window.addEventListener('load', வினை => {
     document.querySelector(".தலைப்பு").addEventListener('click',வினை => {
         if(window.location.href.includes('#')) {
@@ -14,12 +22,11 @@ window.addEventListener('load', வினை => {
     });
 
     document.querySelector(".சிறுகதையின்கொக்கி").addEventListener('click',வினை => {
-        let முகவரி = '#சிறுகதைகள்';
-        if(window.location.href.includes('#')) {
-            window.location.href = window.location.href.split('#')[0] + முகவரி;
-        } else {
-            window.location += முகவரி;
-        }
+        கொக்கித்தீண்டல்('#சிறுகதைகள்');
+    });
+
+    document.querySelector(".மொழிபெயர்ப்பின்கொக்கி").addEventListener('click',வினை => {
+        கொக்கித்தீண்டல்('#மொழிபெயர்ப்புகள்');
     });
 
     document.querySelector(".தொடர்பின்கொக்கி").addEventListener('click',வினை => {
