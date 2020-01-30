@@ -17,7 +17,6 @@
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    font-size: 2.5em;
     color: #5f5b5b;
     word-break: break-all;
     font-family: 'Arima Madurai', cursive;
@@ -30,3 +29,14 @@
     transition: 0.25s ease-in-out
 }
 
+.குறுந்தலைப்பு {
+    font-size: 2.5em;
+}
+
+.நெடுந்தலைப்பு {
+    font-size: 2em;
+}
+
+.பெருந்தலைப்பு {
+    font-size: 1.5em;
+}
