@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         String x = new String(
                 Files.readAllBytes(
-                        Paths.get("C:\\Users\\Lokesh\\Desktop\\kadhaigal\\src\\களஞ்சியம்\\சிறுகதைகள்\\தேர்வு.html"
+                        Paths.get("C:\\Users\\loghithavani\\Desktop\\Development\\kadhaigal\\src\\களஞ்சியம்\\சிறுகதைகள்\\தேர்வு1.html"
                         )));
         String[] xs = x.replaceAll("\\\\t", "&emsp;&emsp;")
                 .replaceAll("(\\\\r)?\\\\n", " <br> ").split(" ");
