@@ -13,8 +13,8 @@ public class Main {
                         )));
         String[] xs = x.replaceAll("\\\\t", "&emsp;&emsp;")
                 .replaceAll("(\\\\r)?\\\\n", " <br> ")
-                .replaceAll("<s (.*?)>", " <span இணைப்பு=\"$1\" class=\"இணைப்பு\"> ")
-                .replaceAll("<se (.*?)>", " <span வெளி_இணைப்பு=\"$1\" class=\"இணைப்பு\"> ")
+                .replaceAll("<s (.*?)>", "<span இணைப்பு=\"$1\" class=\"இணைப்பு\">")
+                .replaceAll("<se (.*?)>", "<span வெளி_இணைப்பு=\"$1\" class=\"இணைப்பு\">")
                 .split(" ");
         StringBuilder sb = new StringBuilder();
         for(String s: xs) {
