@@ -4,3 +4,4 @@ node_modules/
 .cache/
 /dist/
 xyz/
+/config.code-workspace
