@@ -25,6 +25,10 @@ window.addEventListener('load', வினை => {
         கொக்கித்தீண்டல்('#சிறுகதைகள்');
     });
 
+    document.querySelector(".கட்டுரையின்கொக்கி").addEventListener('click',வினை => {
+        கொக்கித்தீண்டல்('#கட்டுரைகள்');
+    });
+
     document.querySelector(".மொழிபெயர்ப்பின்கொக்கி").addEventListener('click',வினை => {
         கொக்கித்தீண்டல்('#மொழிபெயர்ப்புகள்');
     });

@@ -2,6 +2,7 @@ const உடல் = document.querySelector(".உடல்");
 const கொக்கி = document.querySelector(".கொக்கி");
 const சூழற்பட்டியல் = [
     "சிறுகதைகள்",
+    "கட்டுரைகள்",
     "மொழிபெயர்ப்புகள்"
 ];
 
