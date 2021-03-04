@@ -73,17 +73,16 @@
     </head>
     <body class="உடல்">
       <script type="text/javascript">
-        if (window.location.href.includes(encodeURI('முகப்பு.html'))) {
-          if((/iPad|iPad Pro/i.test(navigator.userAgent)) && !window.location.href.includes(encodeURI('/சிட்டு/'))) {
-              window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/சிட்டு/முகப்பு.html#')
+        if (window.location.href.includes('log10.github.io')) {
+          //alert(window.location.href)
+          if(/iPad|iPad Pro/i.test(navigator.userAgent)) {
+              window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/நடு/முகப்பு.html#')
           } else if(/iPhone|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent)) {
-              if(window.innerWidth < window.innerHeight && window.innerHeight/window.innerWidth < 1.4 && !window.location.href.includes(encodeURI('/நடு/'))) {
+              if(window.innerWidth < window.innerHeight && window.innerHeight/window.innerWidth < 1.4) {
                   window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/நடு/முகப்பு.html#')
-              } else if (!window.location.href.includes(encodeURI('/சிட்டு/'))){
+              } else {
                   window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/சிட்டு/முகப்பு.html#')
               }
-          } else if (window.location.href.includes(encodeURI('/சிட்டு/')) || window.location.href.includes(encodeURI('/நடு/'))){
-              window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/முகப்பு.html#')
           }
         }
       </script>
