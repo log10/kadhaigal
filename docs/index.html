@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>கதைகள்</title>
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#5d9cfd">
+    <meta name="description" content="இன்று தூய நற்றமிழை கேட்பதும் காண்பதும் அரிதாகிக்கிடக்கிறது. செந்தமிழுக்காக இவ்விணையப்பக்கம் என்னுடைய சிறிய முயற்சியே.">
+
 </head>
 <body>
     <script type="text/javascript">
         if(/iPad|iPad Pro/i.test(navigator.userAgent)) {
-            window.location = "https://log10.github.io/kadhaigal/நடு/முகப்பு.html"
+            if (window.innerWidth >= window.innerHeight) {
+                window.location = "https://log10.github.io/kadhaigal/முகப்பு.html"
+            } else if (window.innerWidth < window.innerHeight && window.innerHeight/window.innerWidth > 1.4) {
+                window.location = "https://log10.github.io/kadhaigal/சிட்டு/முகப்பு.html"
+            } else {
+                window.location = "https://log10.github.io/kadhaigal/நடு/முகப்பு.html"
+            }
         } else if(/iPhone|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent)) {
-            if(window.innerWidth < window.innerHeight && window.innerHeight/window.innerWidth < 1.4) {
+            if(window.innerWidth >= window.innerHeight || window.innerWidth < window.innerHeight && window.innerHeight/window.innerWidth < 1.4) {
                 window.location = "https://log10.github.io/kadhaigal/நடு/முகப்பு.html"
             } else {
                 window.location = "https://log10.github.io/kadhaigal/சிட்டு/முகப்பு.html"

@@ -15,9 +15,8 @@
     "mobile-build": "parcel build src/சிட்டு/முகப்பு.html --out-dir docs/சிட்டு --public-url ./",
     "tab-build": "parcel build src/நடு/முகப்பு.html --out-dir docs/நடு --public-url ./"
   },
-  "dependencies": {},
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.5"
   }
 }

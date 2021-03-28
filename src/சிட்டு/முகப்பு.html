@@ -3,6 +3,11 @@
     <head>
         <title>கதைகள்</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="index,follow">
+        <meta name="theme-color" content="#5d9cfd">
+        <meta name="description" content="இன்று தூய நற்றமிழை கேட்பதும் காண்பதும் அரிதாகிக்கிடக்கிறது. செந்தமிழுக்காக இவ்விணையப்பக்கம் என்னுடைய சிறிய முயற்சியே.">
+
         <link rel="preload" as="font" href="https://fonts.gstatic.com/s/arimamadurai/v5/t5tmIRoeKYORG0WNMgnC3seB3SjPr6OH.woff2" type="font/woff2" crossorigin="anonymous">
         <link rel="preload" as="font" href="https://fonts.gstatic.com/s/kavivanar/v5/o-0IIpQgyXYSwhxP7_Jr8zRAW_0.woff2" type="font/woff2" crossorigin="anonymous">
         <link rel="preload" as="font" href="https://fonts.gstatic.com/s/pavanam/v4/BXRrvF_aiezLh0xPPPpa9Ff0.woff2" type="font/woff2" crossorigin="anonymous">
@@ -75,14 +80,18 @@
       <script type="text/javascript">
         if (window.location.href.includes('log10.github.io')) {
           //alert(window.location.href)
-          if (/iPad|iPad Pro/i.test(navigator.userAgent)){
-            window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/நடு/முகப்பு.html#')
-          } else if (/iPhone|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent)) {
-              if (window.innerWidth < window.innerHeight && window.innerHeight/window.innerWidth < 1.4) {
-                  window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/நடு/முகப்பு.html#')
-              }
-          } else if (!(/iPad|iPad Pro/i.test(navigator.userAgent))){
+          if (/iPad|iPad Pro/i.test(navigator.userAgent)) {
+            if (window.innerWidth >= window.innerHeight) {
               window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/முகப்பு.html#')
+            } else if (window.innerWidth < window.innerHeight && window.innerHeight / window.innerWidth < 1.4) {
+              window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/நடு/முகப்பு.html#')
+            }
+          } else if (/iPhone|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent)) {
+            if (window.innerWidth >= window.innerHeight || window.innerWidth < window.innerHeight && window.innerHeight / window.innerWidth < 1.4) {
+              window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/நடு/முகப்பு.html#')
+            }
+          } else if (!(/iPad|iPad Pro/i.test(navigator.userAgent))) {
+            window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/முகப்பு.html#')
           }
         }
       </script>
