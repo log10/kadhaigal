@@ -82,16 +82,16 @@
           //alert(window.location.href)
           if (/iPad|iPad Pro/i.test(navigator.userAgent)) {
             if (window.innerWidth >= window.innerHeight) {
-              window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/முகப்பு.html#')
+              window.location = window.location.href.replace(/kadhaigal.*முகப்பு.html/, 'kadhaigal/முகப்பு.html')
             } else if (window.innerWidth < window.innerHeight && window.innerHeight / window.innerWidth < 1.4) {
-              window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/நடு/முகப்பு.html#')
+              window.location = window.location.href.replace(/kadhaigal.*முகப்பு.html/, 'kadhaigal/நடு/முகப்பு.html')
             }
           } else if (/iPhone|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent)) {
             if (window.innerWidth >= window.innerHeight || window.innerWidth < window.innerHeight && window.innerHeight / window.innerWidth < 1.4) {
-              window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/நடு/முகப்பு.html#')
+              window.location = window.location.href.replace(/kadhaigal.*முகப்பு.html/, 'kadhaigal/நடு/முகப்பு.html')
             }
           } else if (!(/iPad|iPad Pro/i.test(navigator.userAgent))) {
-            window.location = window.location.href.replace(/kadhaigal.*#/, 'kadhaigal/முகப்பு.html#')
+            window.location = window.location.href.replace(/kadhaigal.*முகப்பு.html/, 'kadhaigal/முகப்பு.html')
           }
         }
       </script>
